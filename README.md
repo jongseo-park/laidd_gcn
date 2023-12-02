@@ -35,6 +35,18 @@ conda create --name laidd_gnn --file requirements.txt
 `mcule-instock_11.csv`
 - 추론 결과 파일
 
+<br>
+
+### step_by_step 폴더 설명
+`01_docking`
+- ADGPU 를 통해 초기 학습용 데이터 46만개 (EnamineDB) 에 대한 도킹을 수행하는 과정에 관한 자료
+- protein 압축파일 내 pdbqt 파일과 도킹결과일부 폴더 내 리간드 pdbqt 파일을 통해 도킹 결과를 visualize 할 수 있음
+
+`02_DL_training`
+- ADGPU 도킹 결과를 GCN 으로 학습시키는 과정에 관한 자료
+
+`03_score_prediction_through_DLmodel`
+- 학습시킨 DL 모델을 이용하여 mcule DB 에 대한 도킹 스코어를 예측하는 과정에 관한 자료
 
 <br>
 
