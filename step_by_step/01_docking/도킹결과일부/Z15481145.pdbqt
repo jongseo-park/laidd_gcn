@@ -1,0 +1,74 @@
+MODEL        1
+USER    Run = 1
+USER
+USER    Estimated Free Energy of Binding    =  -4.34 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER
+USER    (1) Final Intermolecular Energy     =  -5.83 kcal/mol
+USER        vdW + Hbond + desolv Energy     =  -5.49 kcal/mol
+USER        Electrostatic Energy            =  -0.35 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =  -5.83 kcal/mol
+USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -1.99 kcal/mol
+USER    (3) Torsional Free Energy           =  +1.49 kcal/mol
+USER    (4) Unbound System's Energy         =  -1.99 kcal/mol
+USER
+USER
+REMARK  Name = Z15481145
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  C_7
+REMARK    2  A    between atoms: C_7  and  S_8
+REMARK    3  A    between atoms: S_8  and  C_9
+REMARK    4  A    between atoms: C_14  and  C_15
+REMARK    5  A    between atoms: N_23  and  C_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.876 170.169 174.051 -0.20 -0.03    +0.178 C 
+ATOM      2  N   UNL     1     162.201 170.530 175.221 -0.18 +0.02    -0.255 N 
+ATOM      3  C   UNL     1     162.529 171.720 175.901 +0.07 +0.01    +0.268 C 
+ATOM      4  O   UNL     1     162.044 172.013 176.990 -0.21 -0.04    -0.267 OA
+ATOM      5  C   UNL     1     163.517 172.556 175.242 -0.16 +0.00    +0.083 A 
+ATOM      6  C   UNL     1     164.071 172.066 174.079 -0.06 -0.02    +0.117 A 
+ATOM      7  S   UNL     1     165.215 173.138 173.409 -0.20 +0.02    -0.076 S 
+ATOM      8  C   UNL     1     164.972 174.275 174.663 -0.08 -0.00    +0.059 A 
+ATOM      9  C   UNL     1     164.045 173.848 175.594 -0.16 +0.01    +0.039 A 
+ATOM     10  N   UNL     1     163.789 170.887 173.472 -0.13 +0.05    -0.215 NA
+ENDROOT
+BRANCH   2  11
+ATOM     11  C   UNL     1     161.193 169.733 175.847 -0.39 -0.00    +0.052 A 
+ATOM     12  C   UNL     1     159.839 170.076 175.783 -0.33 -0.00    +0.026 A 
+ATOM     13  C   UNL     1     158.879 169.215 176.322 -0.28 -0.00    +0.002 A 
+ATOM     14  C   UNL     1     159.264 168.020 176.930 -0.44 -0.00    +0.000 A 
+ATOM     15  C   UNL     1     160.611 167.680 177.011 -0.43 -0.00    +0.002 A 
+ATOM     16  C   UNL     1     161.571 168.529 176.468 -0.32 -0.00    +0.026 A 
+ENDBRANCH   2  11
+BRANCH   9  17
+ATOM     17  C   UNL     1     163.682 174.680 176.792 -0.09 +0.08    +0.136 A 
+ATOM     18  O   UNL     1     163.179 175.947 176.728 -0.44 -0.54    -0.463 OA
+ATOM     19  C   UNL     1     162.953 176.387 177.986 -0.02 +0.11    +0.196 A 
+ATOM     20  C   UNL     1     163.314 175.422 178.891 -0.19 +0.01    +0.042 A 
+ATOM     21  C   UNL     1     163.784 174.322 178.126 -0.19 +0.02    +0.050 A 
+ENDBRANCH   9  17
+BRANCH   1  22
+ATOM     22  S   UNL     1     162.491 168.662 173.223 -0.31 +0.01    -0.078 S 
+BRANCH  22  23
+ATOM     23  C   UNL     1     163.722 168.712 171.891 +0.00 -0.05    +0.173 C 
+BRANCH  23  30
+ATOM     24  N   UNL     1     163.308 171.754 168.815 -0.15 +0.11    -0.313 N 
+ATOM     25  H   UNL     1     162.688 170.951 168.747 +0.03 -0.06    +0.146 HD
+ATOM     26  H   UNL     1     163.188 172.529 168.179 +0.08 -0.07    +0.146 HD
+ATOM     27  C   UNL     1     164.107 171.903 169.892 -0.13 -0.07    +0.303 C 
+ATOM     28  N   UNL     1     164.166 170.853 170.764 -0.13 +0.07    -0.240 N 
+ATOM     29  H   UNL     1     164.774 171.027 171.554 +0.09 -0.03    +0.159 HD
+ATOM     30  C   UNL     1     163.388 169.710 170.794 +0.08 -0.09    +0.231 C 
+ATOM     31  O   UNL     1     162.546 169.437 169.937 -0.35 +0.14    -0.274 OA
+ATOM     32  O   UNL     1     164.760 172.924 170.077 -0.27 +0.02    -0.253 OA
+ENDBRANCH  23  30
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+TORSDOF 5
+TER
+ENDMDL

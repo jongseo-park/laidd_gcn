@@ -1,0 +1,71 @@
+MODEL        1
+USER    Run = 1
+USER
+USER    Estimated Free Energy of Binding    =  -5.35 kcal/mol  [=(1)+(2)+(3)-(4)]
+USER
+USER    (1) Final Intermolecular Energy     =  -6.84 kcal/mol
+USER        vdW + Hbond + desolv Energy     =  -6.70 kcal/mol
+USER        Electrostatic Energy            =  -0.15 kcal/mol
+USER        Moving Ligand-Fixed Receptor    =  -6.84 kcal/mol
+USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+USER    (2) Final Total Internal Energy     =  -1.53 kcal/mol
+USER    (3) Torsional Free Energy           =  +1.49 kcal/mol
+USER    (4) Unbound System's Energy         =  -1.53 kcal/mol
+USER
+USER
+REMARK  Name = Z16077674
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_8  and  S_9
+REMARK    4  A    between atoms: S_9  and  C_10
+REMARK    5  A    between atoms: C_10  and  C_11
+REMARK    6  A    between atoms: C_10  and  C_12
+REMARK    7  A    between atoms: N_14  and  C_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+USER                              x       y       z     vdW  Elec       q    Type
+USER                           _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     152.684 166.967 181.125 -0.28 -0.10    +0.137 C 
+ATOM      2  C   UNL     1     151.928 167.499 182.348 -0.29 -0.02    +0.029 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     151.827 165.886 180.464 -0.20 -0.11    +0.230 C 
+ATOM      4  N   UNL     1     151.835 165.906 179.079 -0.12 +0.17    -0.282 N 
+ATOM      5  H   UNL     1     152.256 166.718 178.623 -0.33 -0.18    +0.155 HD
+ATOM      6  O   UNL     1     151.167 165.101 181.144 -0.30 +0.08    -0.274 OA
+BRANCH   4   7
+ATOM      7  C   UNL     1     151.066 165.054 178.247 -0.24 -0.03    +0.072 A 
+ATOM      8  C   UNL     1     151.598 163.804 177.911 -0.18 -0.05    +0.182 A 
+ATOM      9  F   UNL     1     152.771 163.419 178.439 -0.08 +0.06    -0.200 F 
+ATOM     10  C   UNL     1     150.947 162.972 177.004 -0.12 -0.05    +0.195 A 
+ATOM     11  F   UNL     1     151.494 161.798 176.659 -0.04 +0.06    -0.199 F 
+ATOM     12  C   UNL     1     149.744 163.370 176.441 -0.10 -0.04    +0.161 A 
+ATOM     13  F   UNL     1     149.127 162.594 175.540 -0.01 +0.05    -0.202 F 
+ATOM     14  C   UNL     1     149.165 164.578 176.803 -0.14 -0.01    +0.043 A 
+ATOM     15  C   UNL     1     149.820 165.413 177.714 -0.21 -0.01    +0.029 A 
+ENDBRANCH   4   7
+ENDBRANCH   1   3
+BRANCH   1  16
+ATOM     16  S   UNL     1     152.921 168.348 179.949 -0.41 +0.08    -0.073 S 
+BRANCH  16  22
+ATOM     17  C   UNL     1     158.335 167.132 177.100 -0.39 -0.04    +0.103 C 
+ATOM     18  C   UNL     1     157.598 168.336 177.671 -0.39 -0.07    +0.131 C 
+ATOM     19  C   UNL     1     156.232 167.963 178.181 -0.48 -0.05    +0.077 C 
+ATOM     20  C   UNL     1     155.672 166.627 178.013 -0.43 -0.05    +0.088 C 
+ATOM     21  N   UNL     1     154.414 166.620 178.553 -0.26 +0.14    -0.221 NA
+ATOM     22  C   UNL     1     154.298 167.830 179.031 -0.27 -0.17    +0.190 C 
+ATOM     23  C   UNL     1     156.407 165.660 177.474 -0.44 -0.02    +0.033 C 
+ATOM     24  N   UNL     1     155.362 168.698 178.816 -0.17 +0.18    -0.224 NA
+ATOM     25  C   UNL     1     157.760 165.913 177.027 -0.41 -0.02    +0.043 C 
+BRANCH  17  27
+ATOM     26  C   UNL     1     160.204 168.647 177.160 -0.34 -0.06    +0.276 C 
+ATOM     27  O   UNL     1     159.618 167.436 176.683 -0.09 +0.09    -0.499 OA
+ENDBRANCH  17  27
+ENDBRANCH  16  22
+ENDBRANCH   1  16
+TORSDOF 5
+TER
+ENDMDL
